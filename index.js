@@ -26,7 +26,7 @@ const currentLine = (katzDeliLine) => {
       }
     }
   
-    return line
+    return line;
   }
-  return 
-}
+  return 'The line is currently empty.';
+};
