@@ -11,5 +11,7 @@ const nowServing = (katzDeliLine) => {
     katzDeliLine.shift();
     return 'Currently serving ' + currentlyServed + '.';
   }
-  return 'There is nobody waiting to be served!'
-}
+  return 'There is nobody waiting to be served!';
+};
+
+const currentLine = 
