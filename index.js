@@ -7,6 +7,8 @@ const nowServing = (katzDeliLine) => {
   let currentlyServed = '';
   if (katzDeliLine.length > 0) {
     currentlyServed = katzDeliLine[0];
-    katzDeliLine.
+    katzDeliLine.shift();
+    return 'Currently serving ' + currentlyServed;
   }
-}; // "Currently serving Ada."
+  return ''
+}
