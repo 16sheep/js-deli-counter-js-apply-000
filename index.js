@@ -19,10 +19,10 @@ const currentLine = (katzDeliLine) => {
     let line = '';
     for (let i = 0; i<katzDeliLine.length; i++){
       if(i === katzDeliLine.length - 1){
-      line = line + i + '.' + katzDeliLine[i];
+      line = line + i + '. ' + katzDeliLine[i];
       }
       else{
-        line = line + i + '.' + katzDeliLine[i] + ", ";
+        line = line + i + '. ' + katzDeliLine[i] + ", ";
       }
     }
   
