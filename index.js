@@ -23,7 +23,7 @@ const currentLine = (katzDeliLine) => {
       line = line + currentNumber + '. ' + katzDeliLine[i];
       }
       else{
-        line = line + i + '. ' + katzDeliLine[i] + ", ";
+        line = line + currentNumber + '. ' + katzDeliLine[i] + ", ";
       }
     }
   
