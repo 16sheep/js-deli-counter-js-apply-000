@@ -16,7 +16,7 @@ const nowServing = (katzDeliLine) => {
 
 const currentLine = (katzDeliLine) => {
   if (katzDeliLine.length > 0){
-    let line = 'The line is currently: ';
+    let line = '';
     for (let i = 0; i<katzDeliLine.length; i++){
       if(i === katzDeliLine.length - 1){
       line = line + i + '.' + katzDeliLine[i];
@@ -26,7 +26,7 @@ const currentLine = (katzDeliLine) => {
       }
     }
   
-    return line;
+    return 'The line is cuurently: ' + line;
   }
   return 'The line is currently empty.';
 };
