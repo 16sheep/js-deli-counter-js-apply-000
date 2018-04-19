@@ -15,6 +15,11 @@ const nowServing = (katzDeliLine) => {
 };
 
 const currentLine = (katzDeliLine) => {
-  if ()
-    for (let i = 0)
+  if (katzDeliLine.length > 0){
+    line = []
+    for (let i = 0; i<katzDeliLine.length; i++){
+      
+      
+    }
+  }
 }
