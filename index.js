@@ -1,0 +1,3 @@
+const takeANumber = (katzDeliLine, newPerson) => {
+  
+}
