@@ -19,7 +19,7 @@ const currentLine = (katzDeliLine) => {
     let line = '';
     for (let i = 0; i<katzDeliLine.length; i++){
       if(i === katzDeliLine.length - 1){
-      let currentNumber = i + 1;
+      let currentNumber = i + 2;
       line = line + currentNumber + '. ' + katzDeliLine[i];
       }
       else{
