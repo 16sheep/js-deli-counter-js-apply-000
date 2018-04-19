@@ -14,4 +14,7 @@ const nowServing = (katzDeliLine) => {
   return 'There is nobody waiting to be served!';
 };
 
-const currentLine = 
+const currentLine = (katzDeliLine) => {
+  if ()
+    for (let i = 0)
+}
