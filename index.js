@@ -1,4 +1,4 @@
 const takeANumber = (katzDeliLine, newPerson) => {
   katzDeliLine.push(newPerson);
-  return 'You are number ' + katzDeliLine.length + ' in the line';
+  return 'Welcome, '+ newPerson + '. You are number ' + katzDeliLine.length + ' in the line';
 };
