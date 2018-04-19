@@ -5,6 +5,7 @@ const takeANumber = (katzDeliLine, newPerson) => {
 
 const nowServing = (katzDeliLine) => {
   let currentlyServed = '';
+ 
   if (katzDeliLine.length > 0) {
     currentlyServed = katzDeliLine[0];
     katzDeliLine.shift();
